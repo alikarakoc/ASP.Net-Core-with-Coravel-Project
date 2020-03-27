@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewData["Title"] = "Tasks";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model List<NuevoCase.Data.Models.Urls>
+
+<div class="container">
+
+    <div class="row">
+        <a href="@Url.Action("addtask","dashboard")" class="btn btn-success mt-2 mb-2">Yeni görev ekle</a>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Url</th>
+                    <th>Periyot</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.SiteUrl</td>
+                        <td>@item.Period</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+</div>

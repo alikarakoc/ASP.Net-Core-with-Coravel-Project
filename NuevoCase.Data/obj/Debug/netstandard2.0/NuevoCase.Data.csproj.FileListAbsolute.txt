@@ -1,0 +1,8 @@
+C:\Users\ALI\Desktop\NuevoCase\NuevoCase.Data\bin\Debug\netstandard2.0\NuevoCase.Data.deps.json
+C:\Users\ALI\Desktop\NuevoCase\NuevoCase.Data\bin\Debug\netstandard2.0\NuevoCase.Data.dll
+C:\Users\ALI\Desktop\NuevoCase\NuevoCase.Data\bin\Debug\netstandard2.0\NuevoCase.Data.pdb
+C:\Users\ALI\Desktop\NuevoCase\NuevoCase.Data\obj\Debug\netstandard2.0\NuevoCase.Data.csprojAssemblyReference.cache
+C:\Users\ALI\Desktop\NuevoCase\NuevoCase.Data\obj\Debug\netstandard2.0\NuevoCase.Data.AssemblyInfoInputs.cache
+C:\Users\ALI\Desktop\NuevoCase\NuevoCase.Data\obj\Debug\netstandard2.0\NuevoCase.Data.AssemblyInfo.cs
+C:\Users\ALI\Desktop\NuevoCase\NuevoCase.Data\obj\Debug\netstandard2.0\NuevoCase.Data.dll
+C:\Users\ALI\Desktop\NuevoCase\NuevoCase.Data\obj\Debug\netstandard2.0\NuevoCase.Data.pdb

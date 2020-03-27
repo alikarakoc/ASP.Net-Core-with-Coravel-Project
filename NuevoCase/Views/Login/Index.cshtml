@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - NuevoCase</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="card mt-2">
+            <div class="card-header">
+                <div class="card-title">Oturum açın</div>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label>Kullanıcı adı</label>
+                    <input type="text" id="txtUsername" class="form-control" placeholder="Lütfen kullanıcı adınızı girin." />
+                </div>
+                <div class="form-group">
+                    <label>Parola</label>
+                    <input type="password" id="txtPassword" class="form-control" placeholder="Parolanızı girin." />
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="cbRememberme" />
+                    <label for="cbRememberme">Beni hatırla</label>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-success" id="btnLogin">Giriş Yap</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/login.js"></script>
+</body>
+</html>
+
+

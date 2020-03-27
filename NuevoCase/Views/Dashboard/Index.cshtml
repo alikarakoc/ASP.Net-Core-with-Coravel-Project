@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="container">
+    Hoşgeldin, <h4 class="d-inline">
+        @User.Claims.Where(c => c.Type == System.Security.Claims.ClaimTypes.Name).Select(c => c.Value).SingleOrDefault()
+    </h4>
+    <div class="clearfix"></div>
+    <a href="@Url.Action("addtask","dashboard")" class="btn btn-success mt-2">Yeni görev ekle</a>
+</div>

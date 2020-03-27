@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "AddTask";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">
+                Yeni görev oluşturun
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label>Site Url</label>
+                <input type="url" class="form-control" id="txtUrl" />
+            </div>
+            <div class="form-group">
+                <label>Periyot</label>
+                <select class="form-control" id="drpPeriod">
+                    <option value="">-Periyot günü seçin-</option>
+                    <option value="* * * * *">Her dakika çalıştır.</option>
+                    <option value="00 */1 * * *">Her saat çalıştır.</option>
+                    <option value="00 13,14,15 * * *">Her gün 13:00, 14:00 ve 15:00 de çalıştır.</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <button class="btn btn-success" id="btnAddTask">Görevi oluştur</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/js/task.js"></script>
+}
